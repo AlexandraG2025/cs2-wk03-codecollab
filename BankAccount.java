@@ -1,43 +1,47 @@
 public class BankAccount {
 
-	// INSTANCE VARIABLES
-	private String clientName;
-	private double balance;
+	public static void main(String []args) {
 
-	// CONSTRUCTORS
-	public BankAccount() {
-		clientName = "None";
-		balance = 0.00;
-	}
+		// INSTANCE VARIABLES
+			private String clientName;
+		private double balance;
 
-	public BankAccount(double initialBalance) {
-		clientName = "None";
-		balance = initialBalance;
-	}
+		// CONSTRUCTORS
+		public BankAccount() {
+			clientName = "None";
+			balance = 0.00;
+		}
 
-	public BankAccount(String initialName, double initialBalance) {
-		clientName = initialName;
-		balance = initialBalance;
-	}
+		public BankAccount(double initialBalance) {
+			clientName = "None";
+			balance = initialBalance;
+			}
 
-	// METHODS
-	public String getClientName() {
-		return clientName;
-	}
+		public BankAccount(String initialName, double initialBalance) {
+			clientName = initialName;
+			balance = initialBalance;
+		}
 
-	public double getBalance() {
-		return balance;
-	}
+		// METHODS
+		public String getClientName() {
+			return clientName;
+		}
 
-	public void setClientName(String newName) {
-		clientName = newName;
-	}
+		public double getBalance() {
+			return balance;
+		}
 
-	public void deposit(double amount) {
-		balance = balance + amount;
-	}
+		public void setClientName(String newName) {
+			clientName = newName;
+		}
 
-	public void withdraw(double amount) {
-		balance = balance - amount;
+		public void deposit(double amount) {
+			balance = balance + amount;
+		}
+
+		public void withdraw(double amount) {
+			balance = balance - amount;
+		}
+
 	}
 }
