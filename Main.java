@@ -1,9 +1,9 @@
 public class Main {
 
-    public static void main(String []args) {
+    public static void main (String []args) {
         System.out.println("🏦 creating BankAccount objects 🏦"); 
 
-		// HINT: check out the BankAccount.java file included in this project!
+	
         BankAccount rich = new BankAccount(90.99);
 		BankAccount broke = new BankAccount();
 		BankAccount lizard = new BankAccount("Lord Zuck", 106100000000.00);

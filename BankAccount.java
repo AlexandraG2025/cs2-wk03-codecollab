@@ -1,9 +1,7 @@
 public class BankAccount {
 
-	public static void main(String []args) {
-
 		// INSTANCE VARIABLES
-			private String clientName;
+		private String clientName;
 		private double balance;
 
 		// CONSTRUCTORS
@@ -43,5 +41,4 @@ public class BankAccount {
 			balance = balance - amount;
 		}
 
-	}
 }
